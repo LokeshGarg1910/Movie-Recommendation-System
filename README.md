@@ -1,28 +1,18 @@
 # Movie Recommendation System
 
-A content-based Movie Recommendation System built using Python, Machine Learning, Streamlit, and TMDB API.
+A content-based Movie Recommendation System built on a dataset of 5,000+ films.
 
-## Features
+## Overview
 
-- Recommends movies based on content similarity.
-- Uses movie metadata such as genres, cast, crew, keywords, and overview.
-- Displays movie posters using the TMDB API.
-- Interactive user interface built with Streamlit.
+* Engineered features from genres, keywords, cast, crew, and movie overviews.
+* Applied CountVectorizer for text vectorization and cosine similarity for movie recommendations.
+* Integrated the TMDB API to fetch and display movie posters alongside recommendations.
+* Developed an interactive and responsive interface using Streamlit for personalized movie suggestions.
 
 ## Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Streamlit
-- TMDB API
-
-## Dataset
-
-- TMDB 5000 Movies Dataset
-- TMDB 5000 Credits Dataset
-
-## Author
-
-Lokesh Garg
+* Python
+* CountVectorizer
+* Cosine Similarity
+* Streamlit
+* TMDB API
