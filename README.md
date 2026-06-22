@@ -4,9 +4,9 @@ A content-based Movie Recommendation System built using Python, Machine Learning
 
 ## Features
 
-- Recommends top 5 similar movies based on user selection.
-- Uses genres, cast, crew, keywords, and movie overview for recommendations.
-- Displays movie posters using TMDB API.
+- Recommends movies based on content similarity.
+- Uses movie metadata such as genres, cast, crew, keywords, and overview.
+- Displays movie posters using the TMDB API.
 - Interactive user interface built with Streamlit.
 
 ## Technologies Used
